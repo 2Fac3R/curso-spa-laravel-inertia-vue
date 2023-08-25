@@ -9,8 +9,5 @@ class Note extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'excerpt',
-        'content'
-    ];
+    protected $fillable = ['excerpt', 'content'];
 }
